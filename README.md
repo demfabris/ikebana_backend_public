@@ -71,3 +71,10 @@ Head into nginx folder and: `./setup.sh`
 In project root directory:
 `docker-compose build | docker-compose up`
 
+## :thinking: Final considerations
+This project is live at https://api.fabricio7p.com.br
+Feel free to use this code, hope it helps you in some way
+
+### Related
+Checkout Ikebana Front End application using React:
+[Ikebana Sanguetsu](https://github.com/fabricio7p/Ikebana_Front_Production)
