@@ -14,7 +14,7 @@ class Config(object):
     JWT_SECRET_KEY = 'secret'
     JWT_TOKEN_LOCATION = ('query_string', 'headers')
     JWT_ACCESS_TOKEN_EXPIRES = 3600
-    JWT_QUERY_STRING_NAME = 'string'
+    JWT_QUERY_STRING_NAME = 'code'
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587
     MAIL_USE_TLS = True
