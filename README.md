@@ -52,7 +52,7 @@ I'm making this public to help other devs using this stack
 
 ## :steam_locomotive: Installation
 
-`git clone git@github.com:fabricio7p/Ikebana_Backend_Public`
+`git clone git@github.com:fabricio7p/Ikebana-Backend-Public`
 
 ### Setting flask app env variables:
 
@@ -77,4 +77,4 @@ Feel free to use this code, hope it helps you in some way
 
 ### Related
 Checkout Ikebana Front End application using React:
-[Ikebana Sanguetsu](https://github.com/fabricio7p/Ikebana_Front_Public)
+[Ikebana Sanguetsu](https://github.com/fabricio7p/Ikebana-Front-Public)
