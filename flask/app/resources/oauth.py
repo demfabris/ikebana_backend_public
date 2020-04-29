@@ -94,7 +94,8 @@ def oauth_callback():
         except IntegrityError:
             abort(500)
     access_code = user_gen_jwt(users_email, os.environ.get('APP_SECRET_KEY'))
-    refresh_jwt = user_gen_jwt(users_email, refresh=True)
+    refresh_jwt = user_gen_jwt(users_email, os.environ.get('APP_SECRET_KEY'), 
+                               refresh=True)
     '''Returns jwt to client'''
     return jsonify({'key': '{}'.format(access_code),
                     'refresh_key': '{}'.format(refresh_jwt)})
