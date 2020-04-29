@@ -77,4 +77,4 @@ Feel free to use this code, hope it helps you in some way
 
 ### Related
 Checkout Ikebana Front End application using React:
-[Ikebana Sanguetsu](https://github.com/fabricio7p/Ikebana-Front-Public)
+[Ikebana Sanguetsu](https://github.com/fabricio7p/Ikebana-App-Frontend)
